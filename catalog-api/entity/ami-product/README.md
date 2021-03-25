@@ -2,10 +2,10 @@
 
 ### AWS CLI
 
-* [list-entities](cli/list-entities): Enumerate AMI products on Marketplace that you own
-* [describe-entity](cli/describe-entity): Retrieve details of an AmiProduct entity 
-* [start-change-set](cli/start-change-set): Create new change sets for an existing AmiProduct
-* [describe-change-set](cli/describe-change-set): Retrieve details of a previously submitted change request
+* [list-entities](examples/cli/list-entities): Enumerate AMI products on Marketplace that you own
+* [describe-entity](examples/cli/describe-entity): Retrieve details of an AmiProduct entity 
+* [start-change-set](examples/cli/start-change-set): Create new change sets for an existing AmiProduct
+* [describe-change-set](examples/cli/describe-change-set): Retrieve details of a previously submitted change request
 
 ## API References
 
