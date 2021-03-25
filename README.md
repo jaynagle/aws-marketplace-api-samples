@@ -15,5 +15,6 @@
 ## AWS Marketplace Catalog API
 
 * [Documentation](https://docs.aws.amazon.com/marketplace-catalog/latest/api-reference/welcome.html)
+* [AmiProduct API Samples](catalog-api/entity/ami-product)
 * [Enumerate Products (Python)](catalog-api/enumerate-products-python)
 * [Enumerate Products (Ruby)](catalog-api/enumerate-products-ruby)
