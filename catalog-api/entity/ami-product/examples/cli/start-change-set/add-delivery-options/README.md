@@ -1,5 +1,7 @@
 ### Start a new AddDeliveryOptions ChangeSet on Catalog API
-This sample starts a ChangeSet on an AmiProduct entity using `StartChangeSet` operation in AWS Marketplace Catalog API. To run the sample, set `AWS_ACCESS_KEY_ID`, `AWS_SECRET_ACCESS_KEY`, `AWS_SESSION_TOKEN`, `AWS_REGION`, and `ENTITY_ID` parameters in terminal session.
+This sample starts an `AddDeliveryOptions` ChangeSet on an AmiProduct entity using `StartChangeSet` operation in AWS Marketplace Catalog API. To run the sample, set `AWS_ACCESS_KEY_ID`, `AWS_SECRET_ACCESS_KEY`, `AWS_SESSION_TOKEN`, and `AWS_REGION` parameters in terminal session.
+
+Details of available request parameters can be found [here](../../../../change-types/add-delivery-options). 
 
 **Example 1 (with intermediate variables)**
 ```commandline
@@ -54,7 +56,7 @@ aws marketplace-catalog start-change-set \
     ]';
 ```
 
-**Example 2 (compact invocation)**
+**Example 2 (in-line invocation)**
 
 ```commandline
 aws marketplace-catalog start-change-set \
@@ -75,7 +77,7 @@ aws marketplace-catalog start-change-set \
 **Response Structure**
 ```json
 {
-    "ChangeSetId": "...",
-    "ChangeSetArn": "arn:aws:aws-marketplace:us-east-1:<AWS_ACCOUNT_ID>:AWSMarketplace/ChangeSet/<CHANGE_SET_ID>"
+    "ChangeSetId": "sampleChangeSetId",
+    "ChangeSetArn": "arn:aws:aws-marketplace:us-east-1:123456789012:AWSMarketplace/ChangeSet/sampleChangeSetId"
 }
 ```

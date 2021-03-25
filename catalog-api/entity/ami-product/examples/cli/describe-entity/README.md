@@ -1,5 +1,5 @@
 ### Describe an AmiProduct on Catalog API
-This sample retrieves an AmiProduct entity document using DescribeEntity operation in AWS Marketplace Catalog API. To run the sample, set `AWS_ACCESS_KEY_ID`, `AWS_SECRET_ACCESS_KEY`, `AWS_SESSION_TOKEN`, `AWS_REGION`, and `ENTITY_ID` parameters in terminal session.
+This sample retrieves details of an an AmiProduct using DescribeEntity operation in AWS Marketplace Catalog API. To run the sample, set `AWS_ACCESS_KEY_ID`, `AWS_SECRET_ACCESS_KEY`, `AWS_SESSION_TOKEN`, and `AWS_REGION` parameters in terminal session.
 
 ```commandline
 # Run AWS CLI command

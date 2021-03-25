@@ -1,5 +1,5 @@
 ### List AmiProduct entities on Catalog API
-This sample retrieves all AmiProduct entities using ListEntities operation in AWS Marketplace Catalog API. To run the sample, set `AWS_ACCESS_KEY_ID`, `AWS_SECRET_ACCESS_KEY`, `AWS_SESSION_TOKEN`, `AWS_REGION`, and `ENTITY_ID` parameters in terminal session.
+This sample retrieves all AmiProduct entities owned by a vendor account using ListEntities operation in AWS Marketplace Catalog API. To run the sample, set `AWS_ACCESS_KEY_ID`, `AWS_SECRET_ACCESS_KEY`, `AWS_SESSION_TOKEN`, and `AWS_REGION` parameters in terminal session.
 
 ```
 # Run AWS CLI command

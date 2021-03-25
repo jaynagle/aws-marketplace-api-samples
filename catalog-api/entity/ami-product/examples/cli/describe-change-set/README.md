@@ -1,39 +1,14 @@
 ### Describe a ChangeSet on Catalog API
-This sample retrieves a ChangeSet on an AmiProduct entity using `DescribeChangeSet` operation in AWS Marketplace Catalog API. To run the sample, set `AWS_ACCESS_KEY_ID`, `AWS_SECRET_ACCESS_KEY`, `AWS_SESSION_TOKEN`, `AWS_REGION`, and `ENTITY_ID` parameters in terminal session.
+This sample retrieves a ChangeSet using `DescribeChangeSet` operation in AWS Marketplace Catalog API. To run the sample, set `AWS_ACCESS_KEY_ID`, `AWS_SECRET_ACCESS_KEY`, `AWS_SESSION_TOKEN`, and `AWS_REGION` parameters in terminal session.
 
 ```commandline
-# Set CHANGE_SET_ID
-CHANGE_SET_ID="ExampleChangeSetId-1234";
-
 # Run AWS CLI command
 aws marketplace-catalog describe-change-set \
   --catalog "AWSMarketplace" \
-  --change-set-id "${CHANGE_SET_ID}"
+  --change-set-id "<CHANGE_SET_ID>"
 ```
 
-**Response Structure**
-```json
-{
-    "ChangeSetId": "<CHANGE_SET_ID>",
-    "ChangeSetArn": "arn:aws:aws-marketplace:us-east-1:<AWS_ACCOUNT_ID>:AWSMarketplace/ChangeSet/<CHANGE_SET_ID>",
-    "ChangeSetName": "...",
-    "StartTime": "...",
-    "EndTime": "...",
-    "Status": "...",
-    "ChangeSet": [
-        {
-            "ChangeType": "...",
-            "Entity": {
-                "Type": "AmiProduct@1.0",
-                "Identifier": "..."
-            },
-            "Details": "...",
-            "ErrorDetailList": []
-        }
-    ]
-}
-```
-
+#### Response Structure
 **Successfully completed ChangeSet**
 ```json
 {
@@ -57,7 +32,7 @@ aws marketplace-catalog describe-change-set \
 }
 ```
 
-**ChangeSet terminated with user error**
+**ChangeSet with user errors**
 ```json
 {
     "ChangeSetId": "<CHANGE_SET_ID>",
