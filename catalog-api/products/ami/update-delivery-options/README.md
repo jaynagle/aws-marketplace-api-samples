@@ -53,4 +53,4 @@
 
 ### See Also
 For more information about using this Change type in one of the language-specific AWS SDKs, see the following:
-- [AWS Command Line Interface](../../examples/cli/start-change-set/update-delivery-options) 
+- [AWS Command Line Interface](example.sh) 
