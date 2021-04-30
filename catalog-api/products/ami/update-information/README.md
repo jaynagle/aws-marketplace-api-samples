@@ -1,3 +1,7 @@
+### Language specific examples
+For examples of this Change type in one of the language-specific AWS SDKs, see the following:
+- [AWS Command Line Interface](example.sh)
+
 ### Request Parameters for UpdateInformation Change Type  
 
 **ProductTitle (string)**  
@@ -38,7 +42,3 @@
   
 **SearchKeywords (string list)**  
 *Optional. Additional keywords for the product for search experience. Seller and Product name along with product categories are automatically added for search*
-
-### See Also
-For more information about using this Change type in one of the language-specific AWS SDKs, see the following:
-- [AWS Command Line Interface](example.sh)

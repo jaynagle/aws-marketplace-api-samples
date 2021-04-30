@@ -35,6 +35,7 @@ DETAILS_JSON_AS_STRING=$(echo '
 }' | jq "tostring")
 
 # Run AWS CLI command
+# Entity identifier is same as the productId
 aws marketplace-catalog start-change-set \
   --catalog "AWSMarketplace" \
   --change-set '[

@@ -1,3 +1,7 @@
+### Language specific examples
+For examples of this Change type in one of the language-specific AWS SDKs, see the following:
+- [AWS Command Line Interface](example.sh)
+
 ### Request Parameters for AddDeliveryOptions Change Type  
   
 **Version (structure)**  
@@ -71,7 +75,4 @@
 	                 
 	             - **ToPort (integer)**  
 	               *The destination port*
-	               
-### See Also
-For more information about using this Change type in one of the language-specific AWS SDKs, see the following:
-- [AWS Command Line Interface](example.sh)
+            

@@ -21,6 +21,13 @@ aws marketplace-catalog describe-entity \
 `Details` attribute in DescribeEntity response contains the entity type specific JSON object as a string.
 
 **AmiProduct Details**
+```commandline
+# Run AWS CLI command
+aws marketplace-catalog describe-entity \
+  --catalog "AWSMarketplace" \
+  --entity-id "00000000-0000-0000-0000-000000000000" \
+  | jq -r '.Details' | jq .
+```
 
 ```json
 {
